@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo -s "enter username"
+echo  "enter username"
 
-read USERNAME 
+read -s USERNAME 
 
-echo -s  "enter password"
+echo   "enter password"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "Username is: $USERNAME Password is: $PASSWORD"
